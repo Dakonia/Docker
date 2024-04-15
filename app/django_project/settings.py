@@ -117,6 +117,11 @@ USE_I18N = True
 
 USE_TZ = True
 
+DJANGO_SUPERUSER_USERNAME = 'admin'
+DJANGO_SUPERUSER_PASSWORD = 'admin'
+
+CSRF_TRUSTED_ORIGINS = ['http://localhost:1337']
+
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.0/howto/static-files/

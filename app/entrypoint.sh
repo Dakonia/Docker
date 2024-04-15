@@ -17,4 +17,5 @@ python manage.py flush --no-input
 # Выполняем миграции
 python manage.py migrate
 
+
 exec "$@"
